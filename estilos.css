@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,200&family=Playfair+Display&family=Roboto+Slab&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.jumbotron, .prod {
+  background-color: rgba(0, 0, 0, 0.24);
+  color: #ff8c42;
+  text-shadow: 0 0 20px #171a1b;
+  font-family: "Roboto Slab", serif;
+}
+
+.videoindex {
+  position: fixed;
+  min-height: 100%;
+  min-width: 100%;
+  z-index: -1;
+}
+
+.video {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -2;
+}
+
+.videonos {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -3;
+}
+
+.container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.parrafo {
+  color: white;
+  font-family: "Playfair Display", serif;
+}
+
+.prod {
+  height: 300px;
+  min-width: 500px;
+  border: 2px solid black;
+  background-position: center;
+  background-size: contain;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.productos {
+  background-color: #fff275;
+  border: solid 2px #171a1b;
+  min-width: 100px;
+  height: 150px;
+  background-color: #fff275;
+  background-image: url(./img/evento.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+}
+
+.div form div label {
+  color: blanchedalmond;
+  font-family: "Roboto Slab", serif;
+}
+/*# sourceMappingURL=estilos.css.map */

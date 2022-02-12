@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,200&family=Playfair+Display&family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// fuentes
+$fuente1: 'Jost',
+sans-serif;
+$fuente2: 'Playfair Display',
+serif;
+$fuente3: 'Roboto Slab',
+serif;
+// fuentes fin
+
+// paleta de colores
+$color1: rgb(255, 242, 117);
+$color2: rgb(255, 140, 66);
+$color3: rgb(255, 60, 56);
+$color4: rgb(139, 15, 13);
+$color5 :rgb(23, 26, 27);
+$color6 :rgba(23, 26, 27, 0.432);
+// fin de paleta de colores
+
+
+
+
+
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.24);
+    color: $color2;
+    text-shadow: 0 0 20px $color5;
+    font-family: $fuente3;
+}
+
+.videoindex {
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -1;
+}
+
+
+.video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -2;
+}
+
+.videonos {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -3;
+
+}
+
+.container-fluid {
+    display: flex;
+}
+
+.row {
+    justify-content: center;
+}
+
+@mixin medidasimagen ($height, $width,) {
+    color: $height;
+    font-family: $width
+}
+.parrafo{
+    @include medidasimagen (white, $fuente2);
+}
+.prod {
+    
+
+    height: 300px;
+    min-width: 500px;border: 2px solid black;
+    background-position: center;
+    background-size: contain;
+    border-radius: 5px;
+    margin: 10px;
+    @extend.jumbotron
+}
+
+
+$opcioncolor1: calido;
+$opcioncolor2: medio;
+
+$opcioncolor3: frio;
+
+$fondoproducto: frio;
+
+
+.productos {
+    @if $fondoproducto==calido {
+        background-color: $color3;
+        border: dashed 2px $color5;
+        min-width: 100px;
+    }
+
+    @else if $fondoproducto==medio {
+
+        background-color: $color2;
+        border: dotted 3px $color2;
+        min-width: 100px;
+    }
+
+    @else if $fondoproducto==frio {
+
+        background-color: $color1;
+        border: solid 2px $color5;
+        min-width: 100px;
+    }
+
+    @else {
+        color: $color5;
+        background-image: url(./img/camara.png);
+        min-width: 100px;
+    }
+
+    height: 150px;
+    background-color: $color1;
+    background-image: url(./img/evento.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+
+}
+
+.div form div label {
+    color: blanchedalmond;
+    font-family: $fuente3;
+}
