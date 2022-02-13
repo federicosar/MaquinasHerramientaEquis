@@ -5,6 +5,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
 
 // fuentes
 $fuente1: 'Jost',
@@ -135,4 +142,12 @@ $fondoproducto: frio;
 .div form div label {
     color: blanchedalmond;
     font-family: $fuente3;
+}
+footer{
+
+    background-color: $color4;
+    border: 2px solid $color5 ;
+    align-self: flex-end;
+    width: 100%;
+
 }
