@@ -5,13 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    min-height: 100vh;
-    flex-wrap: wrap;
-}
+
 
 // fuentes
 $fuente1: 'Jost',
@@ -32,8 +26,18 @@ $color6 :rgba(23, 26, 27, 0.432);
 // fin de paleta de colores
 
 
-
-
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+.navbar1{
+    min-width: 100%;
+    border: 2px solid $color1;
+    
+}
 
 
 .jumbotron {

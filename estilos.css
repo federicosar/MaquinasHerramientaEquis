@@ -17,6 +17,11 @@ body {
       flex-wrap: wrap;
 }
 
+.navbar1 {
+  min-width: 100%;
+  border: 2px solid #fff275;
+}
+
 .jumbotron, .prod {
   background-color: rgba(0, 0, 0, 0.24);
   color: #ff8c42;
