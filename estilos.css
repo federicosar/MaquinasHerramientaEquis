@@ -6,17 +6,6 @@
           box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 100vh;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
 .navbar1 {
   min-width: 100%;
   border: 2px solid #fff275;
@@ -90,16 +79,18 @@ body {
   border-radius: 3px;
 }
 
+.contenedorform {
+  height: 800px;
+}
+
 .div form div label {
   color: blanchedalmond;
   font-family: "Roboto Slab", serif;
 }
 
-footer {
-  background-color: #8b0f0d;
-  border: 2px solid #171a1b;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-  width: 100%;
+.footer1 {
+  background-color: #ff8c42;
+  color: #171a1b;
+  border: 2px solid rgba(23, 26, 27, 0.432);
 }
 /*# sourceMappingURL=estilos.css.map */

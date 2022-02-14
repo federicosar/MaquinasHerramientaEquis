@@ -26,13 +26,7 @@ $color6 :rgba(23, 26, 27, 0.432);
 // fin de paleta de colores
 
 
-body{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    min-height: 100vh;
-    flex-wrap: wrap;
-}
+
 .navbar1{
     min-width: 100%;
     border: 2px solid $color1;
@@ -143,15 +137,17 @@ $fondoproducto: frio;
 
 }
 
+.contenedorform{
+    height: 800px;
+}
+
 .div form div label {
     color: blanchedalmond;
     font-family: $fuente3;
 }
-footer{
 
-    background-color: $color4;
-    border: 2px solid $color5 ;
-    align-self: flex-end;
-    width: 100%;
-
+.footer1{
+    background-color: $color2;
+    color: $color5;
+    border: 2px solid $color6;
 }
