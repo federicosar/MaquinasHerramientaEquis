@@ -33,6 +33,17 @@ $color6 :rgba(23, 26, 27, 0.432);
 }
 
 .jumbotron {
+
+    .card{
+        background-color: $color3;
+        color: $color5;
+       
+    }
+    img{ height: 10%;
+        
+    }
+
+
     background-color:$color6;
     color: $color2;
     text-shadow: 0 0 20px $color5;
@@ -41,12 +52,14 @@ $color6 :rgba(23, 26, 27, 0.432);
 
 .jumbotronindex1{
 
-    background-color: $color3;
+    background-color: $color6;
 }
 
 .jumbotronindex img {
 
+
     min-height: 200px;
+   
 }
 
 #tamañocarrusel{
@@ -73,7 +86,20 @@ section{
         backdrop-filter: blur 5px;
         text-shadow:  0 0 20px $color5;
         }
+        
 
+
+
+ }
+
+ #preguntasfrecuentes{
+     .card{
+         background-color: $color1;
+         color: $color5;
+         font-family: $fuente1;
+         text-shadow: 0 0 5px $color5;
+
+     }
  }
 
 

@@ -19,8 +19,17 @@
   font-family: "Roboto Slab", serif;
 }
 
-.jumbotronindex1 {
+.jumbotron .card, .prod .card {
   background-color: #ff3c38;
+  color: #171a1b;
+}
+
+.jumbotron img, .prod img {
+  height: 10%;
+}
+
+.jumbotronindex1 {
+  background-color: rgba(23, 26, 27, 0.432);
 }
 
 .jumbotronindex img {
@@ -50,6 +59,13 @@ section p {
   -webkit-backdrop-filter: blur 5px;
           backdrop-filter: blur 5px;
   text-shadow: 0 0 20px #171a1b;
+}
+
+#preguntasfrecuentes .card {
+  background-color: #fff275;
+  color: #171a1b;
+  font-family: "Jost", sans-serif;
+  text-shadow: 0 0 5px #171a1b;
 }
 
 .videoindex {
