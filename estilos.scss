@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,200&family=Playfair+Display&family=Roboto+Slab&display=swap');
 
-* {
-    margin: 0;
+* { margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -33,12 +32,30 @@ $color6 :rgba(23, 26, 27, 0.432);
     
 }
 
-
 .jumbotron {
-    background-color: rgba(0, 0, 0, 0.24);
+    background-color:$color6;
     color: $color2;
     text-shadow: 0 0 20px $color5;
     font-family: $fuente3;
+}
+
+.jumbotronindex1{
+
+    background-color: $color3;
+}
+
+.jumbotronindex img {
+
+    min-height: 200px;
+}
+
+#tamañocarrusel{
+
+    min-width: 20%;
+}
+
+.fotoscarrusel{
+    max-height: 50px;
 }
 
 .videoindex {
@@ -64,14 +81,18 @@ $color6 :rgba(23, 26, 27, 0.432);
 
 }
 
-.container-fluid {
+#secciongrilla{
     display: flex;
 }
 
-.row {
+#secciongrillarow {
     justify-content: center;
 }
 
+
+.imgllaves{
+    max-width: 50%;
+}
 @mixin medidasimagen ($height, $width,) {
     color: $height;
     font-family: $width
@@ -150,4 +171,5 @@ $fondoproducto: frio;
     background-color: $color2;
     color: $color5;
     border: 2px solid $color6;
+    text-shadow: none;
 }

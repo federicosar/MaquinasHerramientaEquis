@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,200&family=Playfair+Display&family=Roboto+Slab&display=swap");
 * {
   margin: 0;
@@ -12,10 +13,26 @@
 }
 
 .jumbotron, .prod {
-  background-color: rgba(0, 0, 0, 0.24);
+  background-color: rgba(23, 26, 27, 0.432);
   color: #ff8c42;
   text-shadow: 0 0 20px #171a1b;
   font-family: "Roboto Slab", serif;
+}
+
+.jumbotronindex1 {
+  background-color: #ff3c38;
+}
+
+.jumbotronindex img {
+  min-height: 200px;
+}
+
+#tamañocarrusel {
+  min-width: 20%;
+}
+
+.fotoscarrusel {
+  max-height: 50px;
 }
 
 .videoindex {
@@ -39,16 +56,20 @@
   z-index: -3;
 }
 
-.container-fluid {
+#secciongrilla {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.row {
+#secciongrillarow {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.imgllaves {
+  max-width: 50%;
 }
 
 .parrafo {
@@ -92,5 +113,6 @@
   background-color: #ff8c42;
   color: #171a1b;
   border: 2px solid rgba(23, 26, 27, 0.432);
+  text-shadow: none;
 }
 /*# sourceMappingURL=estilos.css.map */
