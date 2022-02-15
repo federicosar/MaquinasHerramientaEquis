@@ -35,6 +35,23 @@
   max-height: 50px;
 }
 
+.imgindex2 {
+  max-width: 600px;
+}
+
+section h2 {
+  background-color: #fff275;
+  font-family: "Playfair Display", serif;
+}
+
+section p {
+  background-color: rgba(23, 26, 27, 0.432);
+  color: #ff8c42;
+  -webkit-backdrop-filter: blur 5px;
+          backdrop-filter: blur 5px;
+  text-shadow: 0 0 20px #171a1b;
+}
+
 .videoindex {
   position: fixed;
   min-height: 100%;
@@ -92,12 +109,16 @@
   border: solid 2px #171a1b;
   min-width: 100px;
   height: 150px;
-  background-color: #fff275;
-  background-image: url(./img/evento.png);
+  background-color: #ff3c38;
+  background-image: url(./img/fresas.jpg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 3px;
+}
+
+.Producto1 {
+  background-image: url(../img/excavador.jpg);
 }
 
 .contenedorform {

@@ -57,6 +57,25 @@ $color6 :rgba(23, 26, 27, 0.432);
 .fotoscarrusel{
     max-height: 50px;
 }
+.imgindex2{
+    max-width: 600px;
+}
+
+section{
+    h2{
+        background-color: $color1;
+        font-family: $fuente2;
+        
+    }
+    p{
+        background-color: $color6;
+        color: $color2;
+        backdrop-filter: blur 5px;
+        text-shadow:  0 0 20px $color5;
+        }
+
+ }
+
 
 .videoindex {
     position: fixed;
@@ -93,13 +112,20 @@ $color6 :rgba(23, 26, 27, 0.432);
 .imgllaves{
     max-width: 50%;
 }
+
+
+
 @mixin medidasimagen ($height, $width,) {
     color: $height;
     font-family: $width
 }
+
+
 .parrafo{
     @include medidasimagen (white, $fuente2);
 }
+
+
 .prod {
     
 
@@ -111,6 +137,7 @@ $color6 :rgba(23, 26, 27, 0.432);
     margin: 10px;
     @extend.jumbotron
 }
+
 
 
 $opcioncolor1: calido;
@@ -149,14 +176,21 @@ $fondoproducto: frio;
     }
 
     height: 150px;
-    background-color: $color1;
-    background-image: url(./img/evento.png);
+    background-color: $color3;
+    background-image: url(./img/fresas.jpg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 3px;
 
 }
+
+// fin extend
+
+.Producto1{
+    background-image: url(../img/excavador.jpg);
+}
+
 
 .contenedorform{
     height: 800px;
